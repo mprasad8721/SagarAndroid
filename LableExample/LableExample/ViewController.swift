@@ -26,16 +26,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func buttontouchUp(sender: UIButton) {
+    @IBAction func buttontouchUp(_ sender: UIButton) {
         
         print("buttontouchUp");
         
         self.welcomLBL.text = "Welcome";
-        self.welcomLBL.textColor = UIColor.greenColor()
+        self.welcomLBL.textColor = UIColor.green
     }
     
     
-    @IBAction func touchDown(sender: UIButton) {
+    @IBAction func touchDown(_ sender: UIButton) {
         
         print("touchDown")
     }
